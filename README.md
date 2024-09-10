@@ -1,4 +1,4 @@
-# bike-shop
+# softbike
 
 1) Crie um site para uma loja de venda de bicicletas e peças: (nome da loja SOFTBYKE)
 
