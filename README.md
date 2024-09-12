@@ -1,5 +1,11 @@
 # softbike
 
+## Briefing
+
+https://docs.google.com/document/d/1ip6E6FPc6bX6pHKma-UDgEepMEzjmhvATfEiAKMhFQk/edit?usp=sharing
+
+## Objetivos
+
 1) Criar um site para uma loja de venda de bicicletas e peças: (nome da loja SOFTBYKE)
 
 2) Fazer o briefing, respondendo as 17 questões, todas as perguntas e respostas do briefing, deverão estar em uma página como html e essa mesma página, deverá abrir dentro do site no menu empresa.
