@@ -2,3 +2,13 @@
     font-family: FuturistStencil;
     src: url("../fonts/FUTRST.TTF");
 }
+
+:root {
+    /*Paleta de cores do Site*/
+    --color-gray: #383838;
+    --color-green: #76B39D;
+    --color-white: #F9F8EB;
+
+    /*Fotes do Site*/
+    --font-logo: "FuturistStencil";
+}
