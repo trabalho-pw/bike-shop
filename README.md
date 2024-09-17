@@ -4,6 +4,10 @@
 
 https://docs.google.com/document/d/1ip6E6FPc6bX6pHKma-UDgEepMEzjmhvATfEiAKMhFQk/edit?usp=sharing
 
+## Wireframes e Designs
+
+https://www.figma.com/design/6vbUV2ru54X3AuWeaeL560/SoftBike?node-id=14-2&t=2kerBmFuJxtIeuxI-1
+
 ## Objetivos
 
 1) Criar um site para uma loja de venda de bicicletas e peças: (nome da loja SOFTBYKE)
