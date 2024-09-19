@@ -4,3 +4,67 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: var(--color-white);
+}
+
+header {
+    background: var(--color-gray);
+    display: flex;
+    padding: .1em 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.logo .img {
+    color: var(--color-green);
+    font-size: 3.5rem;
+}
+
+.logo h1 {
+    font-family: var(--font-logo);
+    color: var(--color-white);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1vw;
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+a {
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.menu ul li .link {
+    color: var(--color-white);
+}
+
+.menu ul li .link:hover {
+    color: var(--color-green);
+    text-decoration: underline;
+}
+
+.menu ul li .cart {
+    background: var(--color-white);
+    color: var(--color-gray);
+    display: flex;
+    padding: .25em;
+    border-radius: 50%;   
+}
+
+.menu ul li .cart:hover {
+    text-decoration: none;
+    background: var(--color-green);
+}
