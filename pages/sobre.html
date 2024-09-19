@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftByke</title>
+    <link rel="stylesheet" href="../css/style-sobre.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div>
+            <img class="img1" src="../imgs/img1.png" alt="">
+            <img class="img2" src="../imgs/img2.jpg" alt="">
+            <img class="img3" src="../imgs/img3.webp" alt="">
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+<style>
+    main{
+        margin: 0 200px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    img{
+        position: absolute;
+        object-fit: cover;
+        height: 367px;
+        width: 367px;
+        box-shadow: 2px 2px 5px var(--color-gray);
+        transition: transform .5s;
+    }
+    .img1{
+        margin-top: 0px;    
+    }
+    .img2{
+        margin-top: 250px;
+        object-position: right;
+        margin-left: 184px;
+    }
+    .img3{
+        margin-top: 496px;
+        object-position: left;
+    }
+    img:hover{
+        z-index: 2;
+        transform: scale(1.05);
+    }
+</style>
+</html>
