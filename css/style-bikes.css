@@ -19,12 +19,6 @@
     justify-content: center;
   }
   
-  .item{
-    padding: 2px;
-    background-color: rgba(0, 0, 0, 0.13);
-    }
-  
-  
   figure {
       margin: 0;
       padding: 0;
@@ -50,6 +44,6 @@
     }
   
     .item img{
-      object-fit: cover;
-      width: 100%;
+      width: 225px;
+      height: 225px;
     }
