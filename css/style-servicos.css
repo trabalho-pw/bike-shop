@@ -6,22 +6,22 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #F9F8EB;
     margin: 0;
     padding: 0;
 }
 
 .tabela{
     display: flex;
-    justify-content: center;
-    margin-top: 50px; /* Opicional: para espaçamento */
+    margin-top: 50px; 
 }
 
 table {
+    
     border-collapse: collapse;
-    width: 80%; /* Defina a largura que desejar */
+    width: 100%; 
     border: 1px solid #ccc;
-    margin-left: 160px;
+    
 }
 h1 {
     
@@ -48,12 +48,40 @@ tr:hover {
     background-color: #ddd;
 }
 
-.formulario{
-    margin-left: 160px;
+
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
 }
 
-.abacate {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Divide a linha em duas colunas iguais */
-    gap: 10px; 
+main {
+    margin: 0 200px;
+}
+
+form{
+    height: 80vh;
+
+}
+
+.botao {
+    padding: 20px 40px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #76B39D;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    transform: translateX(-50%);
+    bottom: -10%;
+    left: 50%;
+}
+input{
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #76B39D;
+    border-radius: 5px;
+    
 }

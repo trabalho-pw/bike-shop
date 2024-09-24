@@ -5,13 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style-servicos.css">
+    <link rel="stylesheet" href="../css/style-header-footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Serviços</title>
 </head>
 <body>
+    <header>
+        <a href="../index.html">
+            <div class="logo">
+                <span class="material-symbols-outlined img">two_wheeler</span>
+                <h1>SoftBike</h1>
+            </div>
+        </a>
+        <nav class="menu">
+            <ul>
+                <li><a href="Bicicletas.html" class="link">Bicicletas</a></li>
+                <li><a href="/pages/Acessórios.html" class="link">Acesórios</a></li>
+                <li><a href="/pages/servicos.html" class="link">Serviços</a></li>
+                <li><a href="/pages/sobre.html" class="link">Sobre Nós</a></li>
+                <li><a href="#" class="cart"><span class="material-symbols-outlined">shopping_cart</span></a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
     <h1>Serviços Ofertados</h1>
-    <div class="tabela"></div>
-        <table>
+    <div class="tabela"><table>
             <thead>
                 <tr>
                     <th>ID</th>
@@ -58,21 +76,71 @@
                     <td>R$ 60,00</td>
                 </tr>
             </tbody>
-        </table><br>
+        </table></div>
+        <br>
     
-    <div class="formulario">
         <h2> Agendar um Serviço</h2><br>
         <form>
-            <div class="abacate">
-                <label for="name"><b>Nome</b></label>
-                <label for="cpf"><b>CPF</b></label>
-                <input type="text" id="name">
-                <input type="text" id="cpf">
-            </div>
             
-           
+            <div class="inputs">
+                <label for="nome"><b>Nome</b></label>
+                <label for="cpf"><b>CPF</b></label>
+                <input type="text" id="nome">
+                <input type="text" id="cpf">
+                <label for="email"><b>E-mail de contato</b></label>
+                <label for="tipo"><b>Tipo do serviço</b></label> 
+                <input type="text" id="email">
+                <select id="tipo">
+                    <option value="">Revisão Completa</option>
+                    <option value="">Troca de Pneus</option>
+                    <option value="">Ajuste de Marchas</option>
+                    <option value="">Troca de Câmaras</option>
+                    <option value="">Serviço de Freios</option>
+                </select>
+                <label for="data"><b>Data</b></label>
+                <label for="loja"> <b>Loja</b> </label>
+                <input type="date" id="data">
+                <select id="loja">
+                    <option value="">W3-Sul</option>
+                    <option value="">Taguatinga</option>
+                </select>
+            </div><br>
+               <label for="obs"><b>Observações</b></label><br><br>
+                <textarea name="" id="obs" cols="205" rows="15"></textarea>
+                <input class="botao" type="submit" value="Concluir Agendamento">
         </form>
-    </div>
 </main>
+<footer>
+    <a href="#">
+        <div class="logo">
+            <span class="material-symbols-outlined img">two_wheeler</span>
+            <h1>SoftBike</h1>
+        </div>
+    </a>
+    <div class="contacts">
+        <h2 class="footer-subtitle">Contatos</h2>
+        <ul>
+            <li>
+                <span class="material-symbols-outlined icon">mail</span>
+                <p>softbike@gmail.com</p>
+            </li>
+            <li>
+                <span class="material-symbols-outlined icon">call</span>
+                <p>(61) 3332-5777</p>
+            </li>
+        </ul>
+    </div>
+    <div class="location">
+        <h2 class="footer-subtitle">Lojas</h2>
+        <ul>
+            <li>
+                <a href="https://maps.app.goo.gl/Vh2Tetd9GsSmj4pk6" target="_blank">SQS 510 Bloco A - Loja 66, via W3 sul</a>
+            </li>
+            <li>
+                <a href="https://maps.app.goo.gl/6mCDKjkePFzu9w7B7" target="_blank">Taguatinga, Lote 16, St. B Norte Cnb 11 Cnb 14</a>
+            </li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>
