@@ -124,3 +124,8 @@ footer {
 .location ul li a {
     color: var(--color-white);
 }
+
+footer .logo {
+    flex-direction: column;
+    gap: 0;
+}
