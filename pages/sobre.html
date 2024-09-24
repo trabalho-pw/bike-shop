@@ -10,10 +10,29 @@
     <header>
     </header>
     <main>
-        <div>
+        <div class="img_div">
             <img class="img1" src="../imgs/imagem_sobre1.png" alt="">
             <img class="img2" src="../imgs/imagem_sobre2.jpg" alt="">
             <img class="img3" src="../imgs/imagem_sobre3.webp" alt="">
+        </div>
+        <div class="txt_div">
+            <h1>Sobre nós</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
+            </p>
         </div>
     </main>
     <footer>
@@ -21,12 +40,22 @@
 </body>
 <style>
     main{
+        display: flex;
         margin: 0 200px;
+        padding-left: 200px;
     }
-    div{
+    .txt_div{
+        top: 0;
+        width: 550px;
+        padding-left: 250px;
+        padding-top: 50px;
+    }
+    .img_div{
         display: flex;
         flex-direction: column;
         position: relative;
+        height: 863px;
+        width: 551px;
     }
     img{
         position: absolute;
@@ -37,20 +66,23 @@
         transition: transform .5s;
     }
     .img1{
-        margin-top: 0px;    
+        top: 0px;    
     }
     .img2{
-        margin-top: 250px;
+        top: 250px;
         object-position: right;
-        margin-left: 184px;
+        left: 184px;
     }
     .img3{
-        margin-top: 496px;
+        top: 496px;
         object-position: left;
     }
     img:hover{
         z-index: 2;
         transform: scale(1.05);
+    }
+    p{
+        padding-top: 20px;
     }
 </style>
 </html>
