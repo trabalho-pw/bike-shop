@@ -6,7 +6,7 @@
 }
 
 footer,
-header {
+.header-nav {
     background: var(--color-gray);
     display: flex;
     padding: .1em 200px;
@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
 }
 
-header {
+.header-nav {
     box-shadow: 0 2px 4px var(--color-gray);
 }
 
@@ -93,7 +93,6 @@ footer {
     align-items: center;
     gap: .3em;
     margin-bottom: .4em;
-
 }
 
 .contacts ul .icon {
@@ -104,7 +103,6 @@ footer {
 .contacts, .location {
     gap: .5em;
 }
-
 
 .location {
     color: var(--color-white);

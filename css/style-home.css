@@ -9,6 +9,28 @@ body {
     background: var(--color-white);
 }
 
+header {
+    background: url("../imgs/img-home.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 85vh;
+    background-position: bottom;
+    width: 100%;
+    box-shadow: 0 2px 4px var(--color-gray);
+}
+
+.arrow {
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.image {
+    width: 100vw;
+    background: url("../imgs/img-home.jpg");
+}
+
 main {
     height: 100vh;
 }
