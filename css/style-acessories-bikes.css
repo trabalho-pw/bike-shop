@@ -24,6 +24,7 @@
       padding: 0;
       background: #fff;
       overflow: hidden;
+      position: relative;
      }
   figure:item+span {
       bottom: -36px;
@@ -38,6 +39,7 @@
   
   .item figure:hover img {
       transform: scale(0.8);
+      filter: blur(10px);
     }
     h1{
       font-family: "FuturistStencil";
@@ -46,4 +48,46 @@
     .item img{
       width: 225px;
       height: 225px;
+    }
+
+    .item-price{
+      font-size: 22px;
+      font-weight: bolder;
+    }
+    .item-title{
+      font-size: large;
+    }
+    
+    figure .botao-comprar {
+      position: absolute;
+      top:28%;
+      left: 28%;
+      opacity:0;
+    }
+
+    .botao-comprar:hover{
+      background-color: #383838;
+      color: #76B39D ;
+    }
+
+    figure:hover>.botao-comprar{
+      opacity: 1.0;
+      transition: 0.1s;
+    }
+
+    
+    .botao-comprar{
+      border-radius: 10px;
+      border-color: #383838;
+      border-style: solid;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family:'Times New Roman', Times, serif;
+      color: #76B39D;
+      font-weight:bolder;
+    }
+
+    a{
+      text-decoration: none;
     }
