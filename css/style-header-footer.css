@@ -1,11 +1,21 @@
 @import url("style.css");
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer,
 header {
     background: var(--color-gray);
     display: flex;
     padding: .1em 200px;
     align-items: center;
     justify-content: space-between;
+}
+
+header {
+    box-shadow: 0 2px 4px var(--color-gray);
 }
 
 .logo {
@@ -58,4 +68,59 @@ a {
 .menu ul li .cart:hover {
     text-decoration: none;
     background: var(--color-green);
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 5em;
+    box-shadow: 0 -2px 4px var(--color-gray);
+}
+
+.contacts {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts ul li {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .3em;
+    margin-bottom: .4em;
+
+}
+
+.contacts ul .icon {
+    font-size: .9rem;
+    color: var(--color-green);
+}
+
+.contacts, .location {
+    gap: .5em;
+}
+
+
+.location {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.location ul {
+    list-style: none;
+}
+
+.location ul li {
+    margin-bottom: .4em;
+}
+
+.location ul li a {
+    color: var(--color-white);
 }
