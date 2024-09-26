@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftByke</title>
     <link rel="stylesheet" href="../css/style-sobre.css">
-    <link rel="stylesheet" href="../css/style-home.css">
     <link rel="stylesheet" href="../css/style-header-footer.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-    <header>
+    <header class="header-nav">
         <a href="#">
             <div class="logo">
                 <span class="material-symbols-outlined img">two_wheeler</span>
@@ -35,7 +34,7 @@
                 <img class="img3" src="../imgs/imagem_sobre3.webp" alt="">
             </div>
             <div class="txt_div1">
-                <h1>Sobre nós</h1>
+                <h1 class="tittle">Sobre nós</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ipsa iusto dolores alias magnam similique amet nemo molestiae est, labore in. Expedita soluta accusamus necessitatibus aliquam pariatur rerum eum minus?
@@ -54,16 +53,48 @@
             </div>
         </div>
         <h1 class="center_text">Lojas Físicas</h1>
-        <div class="img_div2">
-            <img class="img4" src="../imgs/imagem_sobre4.jpg" alt="">
-            <img class="img5" src="../imgs/imagem_sobre5.jpg" alt="">
-        </div>
-        <div class="txt_div2">
-            <p>SQS 510 Bloco A - Loja 66, via W3 sul</p>
-            <p>Taguatinga, Lote 16, St. B Norte Cnb 11 Cnb 14</p>
+        <div class="container">
+            <div class="img_div2">
+                <img class="img4" src="../imgs/imagem_sobre4.jpg" alt="">
+                <p class="txt_loja">SQS 510 Bloco A - Loja 66, via W3 sul</p>
+            </div>
+            <div class="img_div2">
+                <img class="img5" src="../imgs/imagem_sobre5.jpg" alt="">
+                <p class="txt_loja">Taguatinga, Lote 16, St. B Norte Cnb 11 Cnb 14</p>
+            </div>
         </div>
     </main>
     <footer>
+        <a href="#">
+            <div class="logo">
+                <span class="material-symbols-outlined img">two_wheeler</span>
+                <h1>SoftBike</h1>
+            </div>
+        </a>
+        <div class="contacts">
+            <h2 class="footer-subtitle">Contatos</h2>
+            <ul>
+                <li>
+                    <span class="material-symbols-outlined icon">mail</span>
+                    <p>softbike@gmail.com</p>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined icon">call</span>
+                    <p>(61) 3332-5777</p>
+                </li>
+            </ul>
+        </div>
+        <div class="location">
+            <h2 class="footer-subtitle">Lojas</h2>
+            <ul>
+                <li>
+                    <a href="https://maps.app.goo.gl/Vh2Tetd9GsSmj4pk6" target="_blank">SQS 510 Bloco A - Loja 66, via W3 sul</a>
+                </li>
+                <li>
+                    <a href="https://maps.app.goo.gl/6mCDKjkePFzu9w7B7" target="_blank">Taguatinga, Lote 16, St. B Norte Cnb 11 Cnb 14</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
