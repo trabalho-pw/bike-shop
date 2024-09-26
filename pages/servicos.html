@@ -30,7 +30,8 @@
     <main>
         <br><br>
     <h1>Serviços Ofertados</h1>
-    <div class="tabela"><table>
+    <div class="tabela">
+        <table>
             <thead>
                 <tr>
                     <th>ID</th>
@@ -76,8 +77,81 @@
                     <td>1 hora</td>
                     <td>R$ 60,00</td>
                 </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Lubrificação da Corrente</td>
+                    <td>Aplicação de lubrificante na corrente para melhorar a performance.</td>
+                    <td>15 minutos</td>
+                    <td>R$ 20,00</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Ajuste de Guidão</td>
+                    <td>Verificação e ajuste da altura e ângulo do guidão.</td>
+                    <td>30 minutos</td>
+                    <td>R$ 25,00</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Verificação de Pneus</td>
+                    <td>Inspeção de desgaste e pressão dos pneus.</td>
+                    <td>20 minutos</td>
+                    <td>R$ 15,00</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Instalação de Acessórios</td>
+                    <td>Instalação de suportes, luzes e outros acessórios.</td>
+                    <td>1 hora</td>
+                    <td>R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Limpeza Geral</td>
+                    <td>Limpeza detalhada da bicicleta, incluindo quadro e componentes.</td>
+                    <td>1 hora</td>
+                    <td>R$ 40,00</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Verificação de Cabos</td>
+                    <td>Inspeção e ajuste dos cabos de freio e marcha.</td>
+                    <td>30 minutos</td>
+                    <td>R$ 35,00</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Serviço de Suspensão</td>
+                    <td>Ajuste e manutenção do sistema de suspensão da bicicleta.</td>
+                    <td>1 hora e 30 minutos</td>
+                    <td>R$ 100,00</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Reparo de Quadro</td>
+                    <td>Conserto de danos no quadro da bicicleta.</td>
+                    <td>2 horas</td>
+                    <td>R$ 150,00</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Calibragem de Freios</td>
+                    <td>Ajuste da pressão e alinhamento dos freios.</td>
+                    <td>30 minutos</td>
+                    <td>R$ 45,00</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Serviço de Rodas</td>
+                    <td>Verificação e ajuste das rodas, incluindo centragem.</td>
+                    <td>1 hora</td>
+                    <td>R$ 70,00</td>
+                </tr>
             </tbody>
-        </table></div>
+        </table>
+    </div>
+    
+    
         <br>
     
         <h2> Agendar um Serviço</h2><br>
@@ -87,7 +161,7 @@
                 <label for="nome"><b>Nome</b></label>
                 <label for="cpf"><b>CPF</b></label>
                 <input type="text" id="nome">
-                <input type="tel" maxlength="11" pattern="[0-9]{11}" id="cpf" >
+                <input type="text" maxlength="11" id="cpf" >
                 <label for="email"><b>E-mail de contato</b></label>
                 <label for="tipo"><b>Tipo do serviço</b></label> 
                 <input type="email" id="email">
@@ -97,7 +171,17 @@
                     <option value="">Ajuste de Marchas</option>
                     <option value="">Troca de Câmaras</option>
                     <option value="">Serviço de Freios</option>
-                </select>
+                    <option value="">Lubrificação da Corrente</option>
+                    <option value="">Ajuste de Guidão</option>
+                    <option value="">Verificação de Pneus</option>
+                    <option value="">Instalação de Acessórios</option>
+                    <option value="">Limpeza Geral</option>
+                    <option value="">Verificação de Cabos</option>
+                    <option value="">Serviço de Suspensão</option>
+                    <option value="">Reparo de Quadro</option>
+                    <option value="">Calibragem de Freios</option>
+                    <option value="">Serviço de Rodas</option>
+                </select>                
                 <label for="data"><b>Data</b></label>
                 <label for="loja"> <b>Loja</b> </label>
                 <input type="date" id="data">
