@@ -6,50 +6,8 @@
 }
 
 @media (max-width: 1600px) {
-    body {
-        background-color: var(--color-white);
-        margin: 0;
-        padding: 0;
-    }
-
-    main {
-        margin: 0;
-        padding: 0;
-    }
-
     .container {
-        padding-top: 25px;
-        display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-
-    .txt_div1 {
-        width: 100%; 
-        padding-top: 20px;
-        text-align: center; 
-    }
-
-    .img_div1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%; 
-    }
-
-    .img_div2 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-    .img1, .img2, .img3, .img4, .img5 {
-        height: 200px; 
-        width: 90%; 
-        margin-bottom: 20px;
-        object-fit: cover;
-        box-shadow: 2px 2px 5px var(--color-gray);
-        transition: transform .5s;
     }
     }
 
