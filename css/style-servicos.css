@@ -5,7 +5,7 @@
     
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background-color: #F9F8EB;
     margin: 0;
     padding: 0;
@@ -17,16 +17,13 @@ body {
 }
 
 table {
-    
     border-collapse: collapse;
     width: 100%; 
     border: 1px solid #ccc;
-    
 }
 h1 {
-    
     text-align: center;
-    color: #333;
+    color: #383838;
 }
 th, td {
     padding: 12px;
@@ -37,7 +34,6 @@ th, td {
 th {
     background-color:#76B39D; 
     color: #F9F8EB;
-    
 }
 
 tr:nth-child(even) {
@@ -57,11 +53,11 @@ tr:hover {
 
 main {
     margin: 0 200px;
+    
 }
 
 form{
     height: 80vh;
-
 }
 
 .botao {
@@ -84,4 +80,13 @@ input{
     border: 2px solid #76B39D;
     border-radius: 5px;
     
+}
+textarea{
+    border: 2px solid #76B39D;
+    border-radius: 5px;
+}
+select{
+    border: 2px solid #76B39D;
+    border-radius: 5px;
+    font-size: 18px;
 }
