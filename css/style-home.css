@@ -50,8 +50,13 @@ header {
 }
 
 main {
-    height: 100vh;
+    height: auto;
     padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 5em;
+    align-items: center;
 }
 
 main .card-container {
@@ -86,4 +91,48 @@ main .card-container {
     font-size: 1rem;
     color: #666;
     margin-bottom: 20px;
+}
+
+
+.bikes-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 61vw;
+}
+
+.bikes-section h2 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.bikes-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.bikes-section ol {
+    padding-left: 20px;
+    color: #333;
+    list-style: none;
+}
+
+.bikes-section li {
+    margin-bottom: 15px;
+}
+
+.bikes-section h3 {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--color-green);
+}
+
+.bikes-section li p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
 }
