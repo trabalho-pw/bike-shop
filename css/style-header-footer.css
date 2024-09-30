@@ -9,13 +9,16 @@ footer,
 .header-nav {
     background: var(--color-gray);
     display: flex;
-    padding: .1em 200px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header-nav {
     box-shadow: 0 2px 4px var(--color-gray);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .logo {
