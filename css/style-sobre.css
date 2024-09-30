@@ -17,13 +17,18 @@ body{
 }
 
 main{
-    margin: 0 200px;
+    margin: 4% 200px;
 }
 
 .container{
     padding-top: 25px;
     display: flex;
     justify-content: space-around;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
 }
 
 .loja_img {
