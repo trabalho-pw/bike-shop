@@ -1,34 +1,61 @@
 @import url("style.css");
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
     
 }
+
 body {
     font-family: Arial;
     background-color: #F9F8EB;
     margin: 0;
     padding: 0;
-}
-
-.tabela{
-    display: flex;
-    margin-top: 50px; 
+    display: grid;
+    padding-top: 40px;
 }
 
 table {
     border-collapse: collapse;
-    width: 100%; 
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
 }
+
 h1 {
     text-align: center;
     color: #383838;
+    
 }
+
+h2 {
+    text-align: left;
+    color: #383838;
+}
+
+tr{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1.5s forwards;
+}
+
 th, td {
     padding: 12px;
     border: 1px solid #ddd;
     text-align: left;
+    transition: transform 0.3s ease;
+}
+
+th, td:hover{
+    transform: scale(1.05); 
 }
 
 th {
@@ -44,11 +71,12 @@ tr:hover {
     background-color: #ddd;
 }
 
-
 .inputs{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 main {
@@ -56,7 +84,7 @@ main {
 }
 
 form{
-    height: 80vh;
+    margin-top: 15px;
 }
 
 .botao {
@@ -67,23 +95,40 @@ form{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    position: relative;
-    transform: translateX(-50%);
-    bottom: -10%;
-    left: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+    transition: transform 0.3s ease;
 }
+
+.botao:hover{
+    background-color: #476b5e;
+    transform: scale(1.05);
+}
+
 input{
     padding: 15px;
     font-size: 18px;
     border: 2px solid #76B39D;
     border-radius: 5px;
-    
 }
+
 textarea{
     border: 2px solid #76B39D;
     border-radius: 5px;
+    width: 100%;
+    
+    font-size: 18px;
 }
+
+label{
+    transition: transform 0.3s ease;
+}
+
+label:hover{
+    transform: scale(1.05);
+}
+
 select{
     border: 2px solid #76B39D;
     border-radius: 5px;
