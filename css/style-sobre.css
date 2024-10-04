@@ -126,3 +126,17 @@ img:hover{
     font-size: large;
     padding-top: 10px;
 }
+
+.lista_alinhada { 
+    padding-bottom: 20px;
+    text-align: left; 
+}
+
+.lista_alinhada li {
+    margin-left: 20px; 
+}
+
+.lista_alinhada li:first-child {
+    list-style-type: none; 
+    margin-left: 0; 
+}
