@@ -160,3 +160,7 @@ img:hover{
     text-decoration: underline;
     color: var(--color-green);
 }
+
+.sub_title{
+    margin-top: 30px;
+}
