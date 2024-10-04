@@ -41,7 +41,7 @@ main{
     font-size: 2.5rem;
 }
 
-.loja_img {
+.loja_div{
     gap: 1em;
     justify-content: center;
 }
@@ -102,15 +102,7 @@ main{
     object-position: left;
 }
 
-.img4{
-    object-fit: cover;
-    height: 350px;
-    width: 550px;
-    box-shadow: 2px 2px 5px var(--color-gray);
-    transition: transform .5s;
-}
-
-.img5{
+.img_loja{
     object-fit: cover;
     height: 350px;
     width: 550px;
