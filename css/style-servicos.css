@@ -28,6 +28,9 @@ table {
     width: 100%;
     margin-top: 20px;
     border-radius: 5px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1.5s forwards;
 }
 
 h1 {
@@ -39,12 +42,6 @@ h1 {
 h2 {
     text-align: left;
     color: #383838;
-}
-
-tr{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1.5s forwards;
 }
 
 th, td {
@@ -117,7 +114,6 @@ textarea{
     border: 2px solid #76B39D;
     border-radius: 5px;
     width: 100%;
-    
     font-size: 18px;
 }
 
