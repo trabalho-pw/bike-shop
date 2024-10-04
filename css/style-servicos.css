@@ -10,7 +10,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -20,9 +19,6 @@ body {
     padding: 0;
     display: grid;
     padding-top: 40px;
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1.5s forwards;
 }
 
 table {
@@ -31,9 +27,6 @@ table {
     width: 100%;
     margin-top: 20px;
     border-radius: 5px;
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1.5s forwards;
 }
 
 h1 {
@@ -81,6 +74,9 @@ tr:hover {
 
 main {
     margin: 4% 200px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1.5s forwards;
 }
 
 form{
