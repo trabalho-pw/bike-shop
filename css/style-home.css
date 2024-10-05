@@ -58,6 +58,7 @@ main .card-container {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 2em;
+    max-width: 65vw;
 }
 
 .card {
@@ -214,14 +215,14 @@ figure:item+span {
   .botao {
     padding: 20px 40px;
     font-size: 24px;
+    max-width: 50vw;
     color: #fff;
     background-color: #76B39D;
     border: none;
+    text-align: center;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 auto;
     display: block;
-    margin-top: 15px;
     transition: transform 0.3s ease;
 }
 
@@ -239,6 +240,10 @@ figure:item+span {
     .slogan {
         font-size: 3.5rem;
         margin-left: 0;
+        text-align: center;
+    }
+
+    .section h1, .section h2 {
         text-align: center;
     }
   }
