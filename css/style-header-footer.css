@@ -19,7 +19,7 @@ footer {
 }
 
 .header-nav {
-    box-shadow: 0 2px 4px var(--color-gray);
+    box-shadow: 0 2px 5px var(--color-gray);
     position: fixed;
     top: 0;
     justify-content: space-around;
@@ -83,7 +83,7 @@ a {
 footer {
     padding-top: 1em;
     padding-bottom: 5em;
-    box-shadow: 0 -2px 4px var(--color-gray);
+    box-shadow: 0 -2px 5px var(--color-gray);
 }
 
 .contacts {
