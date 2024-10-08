@@ -1,5 +1,12 @@
 @import url("style.css");
 
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +37,9 @@ header {
     text-align: left;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     margin-left: 350px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1.5s forwards;
 }
 
 .sl-2 {
@@ -39,6 +49,7 @@ header {
 .image {
     width: 100vw;
     background: url("../imgs/img-home.jpg");
+    
 }
 
 main {
@@ -49,7 +60,9 @@ main {
     gap: 2em;
     margin-bottom: 5em;
     align-items: center;
-    
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1.5s forwards;
 }
 
 main .card-container {

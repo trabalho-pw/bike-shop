@@ -3,8 +3,21 @@
   src: url("../fonts/FUTRST.TTF");
 }
 
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
 body {
   background: #F9F8EB;
+}
+
+main{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1.5s forwards;
 }
 
 .grid-container {
