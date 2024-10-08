@@ -110,13 +110,13 @@ main{
 
 .short_wireframe{
     object-fit: contain;
-    width: 720px;
-    height: 720px;
+    width: 600px;
+    height: 650px;
 }
 
 .long_wireframe{
     object-fit: contain;
-    width: 720px;
+    width: 600px;
     height: 1000px; 
 }
 
@@ -168,4 +168,17 @@ main{
 
 .sub_title{
     margin-top: 30px;
+}
+
+.briefing_div{
+    margin-left: 50vh;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.recuo_briefing{
+    margin-left: 20px;
 }
